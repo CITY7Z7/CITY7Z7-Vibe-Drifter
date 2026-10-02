@@ -1,0 +1,59 @@
+{
+  "name": "CITY7Z7-Vibe-Drifter",
+  "version": "1.0.0",
+  "description": "CITY7Z7-Vibe-Drifter — движок оркестрации и визуального управления жизненным циклом задач. Оркестрация процессов: трансляция высокоуровневых целей в ориентированный ациклический граф (DAG). Параллельное исполнение: асинхронный менеджер потоков с жестким контролем maxParallel. Событийный каскад: мгновенная передача эстафеты в цепочках зависимых задач. Реактивный UI: фронтенд-слой на React 19 с низкой задержкой обновления данных по протоколу SSE.",
+  "author": "vadymilin777@gmail.com",
+  "license": "Proprietary",
+  "capabilities": [
+    "dag-graph-validation",
+    "topological-layers-layout",
+    "parallel-task-scheduler",
+    "auto-chain-triggers",
+    "deterministic-plan-parser",
+    "llm-goal-decomposition",
+    "sse-realtime-events",
+    "pluggable-storage-adapters",
+    "pluggable-task-executors",
+    "19-starter-templates",
+    "scoped-ui-components",
+    "bilingual-i18n-ru-en"
+  ],
+  "coreFiles": [
+    "src/core/types.ts",
+    "src/core/events.ts",
+    "src/core/graph.ts",
+    "src/core/planner-parser.ts",
+    "src/core/scheduler.ts",
+    "src/core/index.ts"
+  ],
+  "referenceTests": [
+    "tests/core/graph.test.ts",
+    "tests/core/scheduler.test.ts",
+    "tests/core/parser.test.ts",
+    "tests/storage/storage.test.ts",
+    "tests/server/api.test.ts",
+    "tests/e2e/kanban.spec.ts"
+  ],
+  "referenceDependencies": {
+    "better-sqlite3": "^13.0.3",
+    "zod": "^4.6.5",
+    "express": "^4.21.2",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1"
+  },
+  "referenceDevDependencies": {
+    "vitest": "^5.0.3",
+    "supertest": "^7.3.0",
+    "@playwright/test": "^1.63.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/supertest": "^7.2.1",
+    "@types/express": "^4.17.21"
+  },
+  "isolationConventions": {
+    "tablePrefix": "kanban_",
+    "routePrefix": "/api/kanban",
+    "envPrefix": "KANBAN_",
+    "cssClassPrefix": "kb-",
+    "localStoragePrefix": "kanban:"
+  }
+}
