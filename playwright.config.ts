@@ -10,13 +10,13 @@ export default defineConfig({
   retries: 0,
   workers: 1,
   use: {
-    baseURL: 'http://localhost:3002',
+    baseURL: 'http://localhost:3000',
     headless: true,
     viewport: { width: 1280, height: 720 },
   },
   webServer: {
     command: 'npx tsx server.ts',
-    url: 'http://localhost:3002',
+    url: 'http://localhost:3000',
     reuseExistingServer: true,
     timeout: 30000,
   },

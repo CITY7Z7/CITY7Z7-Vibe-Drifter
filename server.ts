@@ -2,7 +2,7 @@
  * @file server.ts
  * @description Главный HTTP-сервер full-stack приложения.
  *
- * Запускает Express на порту 3002:
+ * Запускает Express на порту 3000:
  * - Инициализирует модуль Kanban-оркестратора задач;
  * - Монтирует роутер модуля по пути /api/kanban;
  * - В dev-режиме подключает Vite middlewares;
@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const PORT = 3002;
+  const PORT = 3000;
 
   app.use(express.json());
 
