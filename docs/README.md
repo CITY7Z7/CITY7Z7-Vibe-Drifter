@@ -54,6 +54,7 @@
 | **6. Дизайн-система** | [docs/design-system.md](./design-system.md) | Цветовые токены, темная/светлая темы, изоляция `kb-*`, SVG-граф, правила кастомизации. | Frontend, UI/UX Devs |
 | **7. Тесты и процессы** | [docs/workflows-and-testing.md](./workflows-and-testing.md) | 56 тестов Vitest, Playwright E2E, дебаггинг, запуск в CI/CD, правила верификации. | QA, DevOps, Devs |
 | **8. История версий** | [docs/CHANGELOG.md](./CHANGELOG.md) | Хронология коммитов, эволюция версий от ядра до full-stack песочницы. | Все |
+| **Правила для агента** | [AGENTS.md](../AGENTS.md) | Строгие стандарты Senior Full Stack разработки, комментирования и чистоты кода. | Все разработчики и ИИ-агенты |
 
 ---
 
@@ -80,4 +81,4 @@
 
 - ⬅️ **Предыдущий узел:** [Главный README проекта (../README.md)](../README.md)
 - ➡️ **Следующий узел:** [Системная архитектура и алгоритмы (architecture.md)](./architecture.md)
-- 🔀 **Быстрый переход:** [Спецификация API](./api.md) • [Дизайн-система](./design-system.md) • [Журнал изменений](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Спецификация API](./api.md) • [Дизайн-система](./design-system.md) • [Журнал изменений](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)

@@ -229,4 +229,4 @@ export const AutomationsPage: React.FC = () => {
 
 - ⬅️ **Предыдущий узел:** [Спецификация REST & SSE API (api.md)](./api.md)
 - ➡️ **Следующий узел:** [Дизайн-система (design-system.md)](./design-system.md)
-- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Документация модуля](./kanban-module.md) • [CHANGELOG](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Документация модуля](./kanban-module.md) • [CHANGELOG](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)

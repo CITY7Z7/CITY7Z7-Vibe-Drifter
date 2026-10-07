@@ -205,4 +205,4 @@ export interface TaskExecutor {
 
 - ⬅️ **Предыдущий узел:** [Портал документации (README.md)](./README.md)
 - ➡️ **Следующий узел:** [Документация модуля kanban-module (kanban-module.md)](./kanban-module.md)
-- 🔀 **Быстрый переход:** [Спецификация API](./api.md) • [Руководство по интеграции](./integration-guide.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Спецификация API](./api.md) • [Руководство по интеграции](./integration-guide.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)

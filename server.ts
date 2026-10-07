@@ -21,7 +21,17 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+
+  // Определение порта: поддержка CLI аргумента --port XXXX, либо стандартный порт 3000
+  let port = 3000;
+  const portArgIdx = process.argv.indexOf('--port');
+  if (portArgIdx !== -1 && process.argv[portArgIdx + 1]) {
+    const parsed = parseInt(process.argv[portArgIdx + 1], 10);
+    if (!isNaN(parsed) && parsed > 0) {
+      port = parsed;
+    }
+  }
+  const PORT = port;
 
   app.use(express.json());
 

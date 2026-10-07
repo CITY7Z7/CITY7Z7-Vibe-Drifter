@@ -124,6 +124,7 @@ npm start
 
 ```
 ├── README.md                   # Главная точка входа в проект (данный файл)
+├── AGENTS.md                   # Строгий инженерный манифест и стандарты Senior Full Stack разработки
 ├── package.json                # Спецификация зависимостей и скрипты
 ├── server.ts                   # Главный сервер приложения: Express + Vite middleware + SQLite
 ├── index.html                  # HTML-каркас клиентского приложения
@@ -164,3 +165,4 @@ npm start
 - 🎨 **Дизайн-система и кастомизация интерфейса:** [/docs/design-system.md](./docs/design-system.md)
 - 🧪 **Тестирование, верификация и запуск:** [/docs/workflows-and-testing.md](./docs/workflows-and-testing.md)
 - 📜 **История коммитов и версий:** [/docs/CHANGELOG.md](./docs/CHANGELOG.md)
+- 🛡️ **Свод строгих правил разработчика:** [AGENTS.md](./AGENTS.md)

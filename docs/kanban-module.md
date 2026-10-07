@@ -192,4 +192,4 @@ export default function MyDashboardPage() {
 
 - ⬅️ **Предыдущий узел:** [Системная архитектура (architecture.md)](./architecture.md)
 - ➡️ **Следующий узел:** [Спецификация REST & SSE API (api.md)](./api.md)
-- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Руководство по интеграции](./integration-guide.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Руководство по интеграции](./integration-guide.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)

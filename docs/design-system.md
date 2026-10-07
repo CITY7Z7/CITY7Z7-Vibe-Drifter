@@ -181,4 +181,4 @@
 
 - ⬅️ **Предыдущий узел:** [Руководство по интеграции (integration-guide.md)](./integration-guide.md)
 - ➡️ **Следующий узел:** [Тестирование и рабочие процессы (workflows-and-testing.md)](./workflows-and-testing.md)
-- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Спецификация API](./api.md) • [CHANGELOG](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Спецификация API](./api.md) • [CHANGELOG](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)

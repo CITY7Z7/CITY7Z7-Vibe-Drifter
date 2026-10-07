@@ -99,4 +99,4 @@ sqlite3 kanban-data.db "SELECT id, title, status, depends_on FROM kanban_tasks;"
 
 - ⬅️ **Предыдущий узел:** [Дизайн-система (design-system.md)](./design-system.md)
 - ➡️ **Следующий узел:** [Журнал изменений (CHANGELOG.md)](./CHANGELOG.md)
-- 🔀 **Быстрый переход:** [Главный README](../README.md) • [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Спецификация API](./api.md)
+- 🔀 **Быстрый переход:** [Главный README](../README.md) • [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Спецификация API](./api.md) • [AGENTS.md](../AGENTS.md)

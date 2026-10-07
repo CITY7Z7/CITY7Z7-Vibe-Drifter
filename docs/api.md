@@ -240,4 +240,4 @@
 
 - ⬅️ **Предыдущий узел:** [Документация модуля kanban-module (kanban-module.md)](./kanban-module.md)
 - ➡️ **Следующий узел:** [Руководство по интеграции (integration-guide.md)](./integration-guide.md)
-- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md)
+- 🔀 **Быстрый переход:** [Портал документации](./README.md) • [Архитектура](./architecture.md) • [Дизайн-система](./design-system.md) • [CHANGELOG](./CHANGELOG.md) • [AGENTS.md](../AGENTS.md)
